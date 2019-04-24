@@ -1,7 +1,7 @@
 # Welcome to The Super Smash Bros. Compendium (cerca 2017)!
 
 ## About
-This website was created by a group of four students in 2017 for a digital multimedia project. It contains mosaic artwork and biographies of all the main characters from the Super Smash Bros. for 3DS roster.
+This website was created by a group of four students in 2017 for a digital multimedia project. It contains mosaic artwork and biographies of all the main characters from the _Super Smash Bros. for 3DS_ roster.
 
 ## How to View
 1. Download and unzip the ZIP file.
