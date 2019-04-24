@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:Black;">
+<head>
+<meta charset="UTF-8">
+<!-- mobile fit code -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- external CSS link to other misc. website styling -->
+<link rel="stylesheet" href="LinkColors.css">
+<!-- responsive imports (bootstrap) for responsive content on site -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Super Smash Bros Website - Marth</title>
+<!-- inline CSS to make the following headings & paragraphs a color unless otherwise specified -->
+<style>
+h1   {color: white;}
+h2   {color: yellow;}
+h3   {color: white;}
+h4   {color: white;}
+h5   {color: white;}
+p    {color: white;}
+</style>
+<!-- inline CSS for ease of using different colors in one line of a paragraph using classes -->
+<style type="text/css">
+    p.detail { color:aqua } /* make the text in class 'detail' blue */
+    span.info { color:white } /* make the text in class 'info' white */
+    </style>
+<center>
+<h1 style="color:aqua">The Super Smash Bros Compendium</h1>
+</center>
+</head>
+
+<!-- navigation bar code (classified using bootstrap) -->
+<nav class="navbar navbar-inverse">
+  <!-- you always need a fluid container element in bootstrap when using any responsive content -->
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <!-- Homepage not highlighted in navbar (inactive) when not on that page -->
+      <li class="inactive"><a href="index.html">Home</a></li>
+      <li><a href="aboutGame.html">About</a></li>
+      <!-- make dropdown -->
+      <li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="#">All Bios <span class="caret"></span></a>
+          <!-- for the above, All Bios is selected (active) when on any bio page; toggle dropdown links -->
+        <ul class="dropdown-menu">
+          <!-- NAME ALL BIO PAGES WITH THE SAME NAMES AS BELOW (.html) -->
+          <li><a href="bowser.html">Bowser</a></li>
+          <li><a href="captain_falcon.html">Captain Falcon</a></li>
+          <li><a href="charizard.html">Charizard</a></li>
+          <li><a href="cloud.html">Cloud</a></li>
+          <li><a href="donkey_kong.html">Donkey Kong</a></li>
+          <li><a href="fox.html">Fox</a></li>
+          <li><a href="ganondorf.html">Ganondorf</a></li>
+          <li><a href="ike.html">Ike</a></li>
+          <li><a href="jigglypuff.html">Jigglypuff</a></li>
+          <li><a href="kirby.html">Kirby</a></li>
+          <li><a href="king_dedede.html">King Dedede</a></li>
+          <li><a href="link_zelda.html">Link</a></li>
+          <li><a href="luigi.html">Luigi</a></li>
+          <li><a href="mario.html">Mario</a></li>
+          <li><a href="marth.html">Marth</a></li>
+          <li><a href="mega_man.html">Mega Man</a></li>
+          <li><a href="mr_game_and_watch.html">Mr Game & Watch</a></li>
+          <li><a href="ness.html">Ness</a></li>
+          <li><a href="pacman.html">Pac-man</a></li>
+          <li><a href="pikachu.html">Pikachu</a></li>
+          <li><a href="pit.html">Pit</a></li>
+          <li><a href="princess_peach.html">Princess Peach</a></li>
+          <li><a href="samus_zerosuit.html">Samus/Zero Suit</a></li>
+          <li><a href="shulk.html">Shulk</a></li>
+          <li><a href="yoshi.html">Yoshi</a></li>
+          <li><a href="zelda_sheik.html">Zelda/Sheik</a></li>
+        </ul>
+      </li>
+      <!-- last link on navbar below -->
+      <li><a href="aboutTeamShulk.html">Credits</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Character -->
+<h2 style="text-align:center;"><b>Marth</b></h2>
+<center>
+  <!-- ADJUST IMAGE WIDTH/HEIGHT PERCENTAGES ACCORDINGLY FOR EVERY BIO PAGE -->
+<img class="img-responsive" src="Gifs/marth.gif" alt="Marth GIF" <HR WIDTH="25%" <HR HEIGHT="25%">
+  <!-- to change image, change name (after Gifs/) and leave file extension name (.gif) -->
+</center>
+<br>
+<center>
+  <!-- information on character goes here... write information within the 'info' class -->
+<p class="detail"><b>Occupation:</b> <span class="info">The Hero King</span></p>
+<p class="detail"><b>Quote:</b> <span class="info"><q>Now you die</q></span></p>
+<p class="detail"><b>Appearances:</b> <span class="info">fire emblem</span></p>
+<br>
+<p class="detail"><b>Bio:</b> <span class="info">Born and raised in Altea, Marth had become an excellent sword fighter. At a fairly young age, he gathered an army to recapture and restore his home and the rest of the Akaneia continent. He is the warrior who twice slew the dark dragon Medeus.</span></p>
+</center>
+<br>
+<hr>
+<footer>
+<h5 style="text-align:center;">Copyright © 2017 By Team Shulk. Some Rights Reserved.</h5>
+</footer>
+</body>
+</html>

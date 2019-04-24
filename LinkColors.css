@@ -1,0 +1,29 @@
+p {
+    font-family: "Verdana", Geneva, sans-serif;
+    /* add new fonts later */
+}
+
+/* webpage links CSS */
+a:link {
+    color: white;
+    background-color: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+    background-color: none;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+    background-color: none;
+    text-decoration: underline;
+}
+
+/* styling for the dropdown content in the navbar */
+.dropdown-menu {
+   max-height: 300px;
+   overflow-y: scroll;
+}
